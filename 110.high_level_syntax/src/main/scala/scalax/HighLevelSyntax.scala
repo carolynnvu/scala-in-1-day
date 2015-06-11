@@ -11,6 +11,6 @@ object HighLevelSyntax extends App {
   	println(buildString(howdy, name))
 }
 
-//App is a trait that turns objects into executable programs. 
+//App is a class that turns objects into executable programs.
 
 
