@@ -20,6 +20,6 @@ object Person extends App {
 
   println(ccKid)
   println(ccAdult)
-  println(ccAdult == ccAdult2) // == checks for value equality for case classes
+  println(ccAdult == ccAdult2) // == checks for value equality for case classes (internally uses equals)
 
 }
