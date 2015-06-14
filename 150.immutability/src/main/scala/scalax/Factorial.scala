@@ -8,6 +8,6 @@ object Factorial extends App {
   println(fac(n))
 
   private def fac(n: Int): Int = {
-    0
+  	0
   }
 }

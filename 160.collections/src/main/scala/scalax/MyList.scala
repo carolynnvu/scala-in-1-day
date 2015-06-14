@@ -8,6 +8,6 @@ object MyList extends App {
   println(reversedDigits.mkString(" "))
 
   private def reverse(in: List[Int]): List[Int] = {
-    List()
+    in.reverse
   }
 }
